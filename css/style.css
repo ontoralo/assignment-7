@@ -1,0 +1,201 @@
+.home-top-one
+{
+	padding:50px 0px;
+	width: 100%;
+	background-image: url(../img/top-background.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.logo-top{
+	padding-left: 35px;
+	font-family: Pristina;
+	color: yellow;
+	text-shadow: black 1px 1px;
+}
+.nav-link{
+	text-decoration: none;
+}
+.phone{
+	color: white;
+	padding-left: 35px;
+	background-color: #00000082;
+	margin-left: 15px;
+	top: 60px;
+}
+.phone h2{
+	font-size: 50px;
+	margin-right: 15px;
+}
+.underline-top{
+	width: 33%;
+	display: block;
+    border-bottom: 2px solid black;
+    margin: 0 45%;
+    margin-top: 140px;
+    margin-left: 0px;
+    border-color: white;
+
+}
+.top-content{
+	color: white;
+	margin-right: 50px;
+	top: 80px;
+}
+.button-top{
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 100px;
+	color: white;
+	border-color: white;
+	border-radius: 0px;
+}
+
+/*Middle Section Starts*/
+
+.second-part{
+	width: 100%;
+	position: relative;
+}
+.second-part-one{
+	color: black;
+	text-align: left;
+}
+.second-underline-top{
+	width: 4%;
+	display: block;
+    border-bottom: 2px solid black;
+    margin: 0 45%;
+    margin-top: 20px;
+    margin-left: 0px;
+    border-color: black;
+    margin-bottom: 50px;
+    }
+.second-part-one h2{
+	color: #333333;
+	font-size: 53px;
+	margin-right: 15px;
+	font-weight: 700;
+	margin-top: 50px;
+}
+.second-part-two{
+	position: relative;
+	width: 100%;
+	padding-right: 100px;
+	background-size: cover;
+	top: 100px;
+}
+
+.second-part-three{
+	position: absolute;
+	width: 100%;
+}
+
+/*Middle Section Starts*/
+
+.third-part{
+	width: 100%;
+	background-color: #28282e;
+	padding-top: 50px;
+}
+.third-part-one{
+	color: white;
+	text-align: left;
+}
+.third-underline-top{
+	width: 4%;
+	display: block;
+    border-bottom: 2px solid black;
+    margin: 0 45%;
+    margin-top: 20px;
+    margin-left: 0px;
+    border-color: white;
+    margin-bottom: 50px;
+    }
+.third-part-one h2{
+	color: white;
+	font-size: 53px;
+	margin-right: 15px;
+	font-weight: 700;
+	margin-top: 50px;
+}
+.third-part-two{
+	width: 130%;
+	margin-top: 70px;
+	padding-bottom: 30px;
+}
+.button-bottom{
+	width: 60%;
+	margin-top: 30px;
+	padding:20px 30px;
+	margin-bottom: 100px;
+	color: white;
+	border-color: white;
+	border-radius: 0px;
+}
+.footer-part{
+	width: 100%;
+	background-color: #ef4035;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-align: center;
+}
+.footer-part p{
+	text-align: center;
+}
+
+
+/*About us Page*/
+.about-top-one{
+
+	padding:30px 0px;
+	width: 100%;
+	background-color: white;
+}
+.about-logo-top{
+	padding-left: 35px;
+	font-family: Pristina;
+	color: #505050;
+}
+
+/* About Middle Section Starts*/
+
+.about-third-part{
+	width: 100%;
+	background-color: white;
+	padding-top: 50px;
+}
+.about-third-part-one{
+	color: black;
+	text-align: left;
+}
+ .about-third-part-one h2{
+	color: black;
+	font-size: 40px;
+	margin-right: 15px;
+	font-weight: 700;
+	margin-top: 50px;
+}
+.about-third-part-two{
+	width: 100%;
+	margin-top: 50px;
+	padding-bottom: 10px;
+}
+.about-button-bottom{
+	width: 60%;
+	margin-top: 30px;
+	padding:20px 30px;
+	margin-bottom: 100px;
+	color: white;
+	border-color: white;
+	border-radius: 0px;
+}
+.footer-part{
+	width: 100%;
+	background-color: #ef4035;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-align: center;
+}
+.footer-part p{
+	text-align: center;
+}
