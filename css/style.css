@@ -59,6 +59,8 @@
 .second-part-one{
 	color: black;
 	text-align: left;
+	position: relative;
+	z-index: 2;
 }
 .second-underline-top{
 	width: 4%;
@@ -80,9 +82,10 @@
 .second-part-two{
 	position: relative;
 	width: 100%;
-	padding-right: 100px;
 	background-size: cover;
-	top: 100px;
+	transform: scale(1.5);
+	top: 80px;
+	z-index: 1;
 }
 
 .second-part-three{
@@ -159,6 +162,12 @@
 
 /* About Middle Section Starts*/
 
+.header-bottom{
+	width: 100%;
+	height: 10px;
+	background-color: #e4e4e4;
+}
+
 .about-third-part{
 	width: 100%;
 	background-color: white;
@@ -173,11 +182,15 @@
 	font-size: 40px;
 	margin-right: 15px;
 	font-weight: 700;
-	margin-top: 50px;
+	margin-top: 10px;
+}
+.about-para-content{
+	font-size: 14px;
+	text-align: justify;
 }
 .about-third-part-two{
 	width: 100%;
-	margin-top: 50px;
+	margin-top: 40px;
 	padding-bottom: 10px;
 }
 .about-button-bottom{
@@ -189,13 +202,221 @@
 	border-color: white;
 	border-radius: 0px;
 }
-.footer-part{
+.about-footer-part{
+	width: 100%;
+	background-color: #ef4035;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-align: center;
+	margin-top: 50px;
+}
+.about-footer-part p{
+	text-align: center;
+}
+
+/* Contact Page Starts*/
+
+.contact-third-part{
+
+	background-color: #ee4a3f;
+}
+.contact-third-part-one{
+	color: white;
+	margin-top: 10px;
+}
+.contact-third-part-two{
+	height: 80%;
+	width: 80%;
+	margin: 30px auto;
+}
+.contact-footer-part{
 	width: 100%;
 	background-color: #ef4035;
 	padding-top: 25px;
 	padding-bottom: 25px;
 	text-align: center;
 }
-.footer-part p{
+.contact-footer-part p{
+	text-align: center;
+	color: white;
+}
+.contact-form-control{
+	display: inline-block;
+	width: 100%;
+}
+.contact-form-control-lebel{
+	display: inline-block;
+	width: 100%;
+	text-align: left;
+	padding-top: 10px;
+	color: white;
+}
+.contact-form-control-input{
+	width: 100%;
+	background-color: #ffffff3b;
+	border:none;
+	padding:10px 0;
+}	
+.contact-form-btn{
+	border:none;
+	background-color: transparent;
+	font-family: Script MT Bold;
+	margin: 25% auto;
+	font-size: 24px;
+	color: white;
+}
+.contact-form-control-input-textarea{
+	width: 100%;
+	background-color: #ffffff3b;
+	height: 21%;
+	border:none;
+}
+
+
+/* Media Query Starts */
+
+
+@media (max-width: 720px) 
+{
+
+/* Top Section Start */	
+
+
+.logo-top{
+	padding-left: 35px;
+	font-family: Pristina;
+	color: yellow;
+	text-shadow: black 1px 1px;
 	text-align: center;
 }
+.nav-link{
+	text-decoration: none;
+	text-align: center;
+}
+
+.top-content{
+	width: 100%;
+	text-align: justify;
+	color: white;
+	top: 100px;
+}
+.button-top{
+	width: 50%;
+	margin-top: 70px;
+	margin-bottom: 10px;
+	margin-left: 25%;
+	color: white;
+	border-color: white;
+	border-radius: 0px;
+}
+	.phone{
+	color: white;
+	padding-left: 35px;
+	background-color: #00000082;
+	margin-left: 15px;
+	margin-right: 15px;
+	top: 60px;
+	text-align: center;
+}
+.phone h2{
+	font-size: 30px;
+	margin-right: 15px;
+}
+
+.underline-top{
+	width: 5%;
+	display: block;
+    border-bottom: 2px solid black;
+    margin: 0 45%;
+    margin-left: 50%;
+    border-color: white;
+    margin-bottom: 50px;
+    }	
+	
+	
+
+/* Second Section Start */
+	
+.second-part{
+	width: 100%;
+	position: relative;
+}
+.second-part-one{
+	color: black;
+	text-align: justify;
+	z-index: 2;
+	position: relative;
+}
+.second-underline-top{
+	width: 5%;
+	display: block;
+    border-bottom: 2px solid black;
+    margin: 0 45%;
+    margin-top: 20px;
+    margin-left: 50%;
+    border-color: black;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.second-part-one h2{
+	text-align: center;
+	color: #333333;
+	font-size: 20px;
+	font-weight: 700;
+	margin-top: 20px;
+}
+.second-part-two{
+	width: 40%;
+	top: 40%;
+	left: 30%;
+	margin: 0px auto;
+	position: absolute;
+}
+
+.second-part-three{
+	width: 100%;
+}
+	
+/* Third Section Start */
+
+.third-part-one h2{
+	color: white;
+	font-size: 20px;
+	margin-right: 15px;
+	font-weight: 700;
+	margin-top: 30px;
+	text-align: center;	
+}
+.third-part-two{
+	width: 130%;
+	margin-top: 30px;
+	padding-bottom: 30px;
+}
+.button-bottom{
+	width: 50%;
+	margin: 5% 25%;
+	padding:10px 20px;
+	color: white;
+	border-color: white;
+	border-radius: 0px;
+}
+.third-part-one{
+	color: white;
+	text-align: justify;
+}
+.third-underline-top{
+	width: 5%;
+	display: block;
+    border-bottom: 2px solid black;
+    margin: 0 45%;
+    margin-top: 20px;
+    margin-left: 50%;
+    border-color: white;
+    margin-bottom: 50px;
+    }
+
+
+}
+
+
+
