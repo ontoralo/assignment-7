@@ -15,6 +15,18 @@
 .nav-link{
 	text-decoration: none;
 }
+
+li{
+	color: white;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: transparent;
+    font-weight: 700;
+}
+
 .phone{
 	color: white;
 	padding-left: 35px;
